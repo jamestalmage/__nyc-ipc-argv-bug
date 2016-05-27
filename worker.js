@@ -1,0 +1,2 @@
+
+process.send({message: 'foo'});

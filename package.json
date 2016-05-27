@@ -1,0 +1,16 @@
+{
+  "name": "nyc-debug-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run passing && npm run failing",
+    "passing": "node index.js && echo ***TEST PASSED WITHOUT NYC***",
+    "failing": "nyc node index.js && echo ***TEST PASSED WITH NYC***"
+  },
+  "author": "James Talmage <james@talmage.io>",
+  "license": "MIT",
+  "dependencies": {
+    "nyc": "^6.4.4"
+  }
+}
