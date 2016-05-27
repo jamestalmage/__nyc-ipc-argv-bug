@@ -1,4 +1,4 @@
-# NYC or spawn-wrap bug when uses with execArgv
+# NYC or spawn-wrap bug when used with execArgv
 
 It seems that either NYC or `spawn-wrap` is preventing ipc channel creation, but only when an execArgv option is provided.
 
